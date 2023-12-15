@@ -3,7 +3,8 @@
     "rootNamespace": "jmayberry.Shop",
     "references": [
         "jmayberry.CustomAttributes",
-        "Unity.TextMeshPro"
+        "Unity.TextMeshPro",
+        "AYellowpaper.SerializedCollections"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
