@@ -336,7 +336,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 451696225}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1413883967}
+        m_TargetAssemblyTypeName: ResourceManager, Assembly-CSharp
+        m_MethodName: TestGainWood
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &451696225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -855,7 +867,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 861753565}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1413883967}
+        m_TargetAssemblyTypeName: ResourceManager, Assembly-CSharp
+        m_MethodName: TestCostWoodAndGold
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &861753565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -903,7 +927,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1413883966}
-  - component: {fileID: 1413883965}
+  - component: {fileID: 1413883967}
   m_Layer: 0
   m_Name: ResourceManager
   m_TagString: Untagged
@@ -911,28 +935,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1413883965
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1413883964}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b16e8e0c57039d408086c3bba0c2354, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  resources:
-    _serializedList:
-    - Key: {fileID: 11400000, guid: 352b8d41dcbd3f84b9903457b81b7bd9, type: 2}
-      Value: 5
-    - Key: {fileID: 11400000, guid: d949757efab4b6843b72a7cab7d12d02, type: 2}
-      Value: 10
-    - Key: {fileID: 11400000, guid: a30fad0ebb3c3f04fab18b85a459175e, type: 2}
-      Value: 5
-    - Key: {fileID: 11400000, guid: d5b6f0d24350ef540945ad6f019a1e53, type: 2}
-      Value: 8
 --- !u!4 &1413883966
 Transform:
   m_ObjectHideFlags: 0
@@ -948,6 +950,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1413883967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413883964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 718741cce7587c841941f54d54f8235a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resources:
+    _serializedList:
+    - Key: 0
+      Value: 1
 --- !u!1 &1563581255
 GameObject:
   m_ObjectHideFlags: 0
@@ -1031,13 +1049,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1413883964}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1413883967}
+        m_TargetAssemblyTypeName: ResourceManager, Assembly-CSharp
+        m_MethodName: TestGainGold
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
