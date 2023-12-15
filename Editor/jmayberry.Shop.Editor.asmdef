@@ -1,0 +1,19 @@
+{
+    "name": "jmayberry.Shop.Editor",
+    "rootNamespace": "jmayberry.Shop.Editor",
+    "references": [
+        "jmayberry.Shop",
+        "jmayberry.CustomAttributes"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

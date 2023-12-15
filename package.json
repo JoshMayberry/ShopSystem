@@ -1,0 +1,25 @@
+{
+	"name": "com.jmayberry.shop",
+	"displayName": "Shop System",
+	"version": "1.0.0",
+	"unity": "2021.1",
+	"description": "Some generic shop systems for games.",
+	"keywords": [
+		"shop",
+		"resource manager",
+		"utility"
+	],
+	"dependencies": {
+	},
+	"author": {
+		"name": "jmayberry",
+		"email": "joshua.mayberry1991@gmail.com"
+	},
+	"samples": [
+		{
+			"displayName": "HUD",
+			"description": "Constantly available to the player",
+			"path": "Samples~/HUD"
+		}
+	]
+}
